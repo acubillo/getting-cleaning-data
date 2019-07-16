@@ -89,7 +89,7 @@ The script will export the data set into a file called __"resulting_tidy_dataset
 
 Also, if you want to check the file generated, uncomment the 2 final lines in the script to test if the file was created correctly and the data set can be imported and viewed into R. The lines for testing this are:  
 ```{r}
-test <- read.table("./resulting_tidy_dataset.txt")
+test <- read.table("./resulting_tidy_dataset.txt", header = TRUE)
 View(test)
 ```
 <br>

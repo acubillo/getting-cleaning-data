@@ -1,3 +1,8 @@
+#  run_analysis.R
+#
+#  Created by Adalberto Cubillo on 7/16/19.
+#  Copyright © 2019 Adalberto Cubillo. All rights reserved.
+
 library(dplyr)
 library(stringr)
 
@@ -48,9 +53,9 @@ result_data_tidy <- all_data_tidy %>%
 # Export the data set into a file called "resulting_tidy_dataset.txt".
 write.table(result_data_tidy, 
             file = "resulting_tidy_dataset.txt", 
-            col.names = TRUE)
+            col.names = TRUE, row.names = FALSE)
 
 # Uncomment these lines to test if the file was created correctly 
 # and the data set can be imported and viewed
-# test <- read.table("./resulting_tidy_dataset.txt")
+# test <- read.table("./resulting_tidy_dataset.txt", header = TRUE)
 # View(test)
