@@ -1,7 +1,5 @@
 # Adalberto Cubillo - Getting and Cleaning Data Course Project CodeBook 
 
-***
-
 <br>
 
 The resulting data frame from running the script "run_analysis.R" contains the following variables: 

@@ -1,7 +1,5 @@
 # Adalberto Cubillo - Getting and Cleaning Data Course Project
 
-***
-
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.  
 <br>
 
@@ -21,8 +19,6 @@ install.packages(c("dplyr", "stringr"))
 <br>
 
 __2. Copy the "run_analysis.R" script into a folder containing the folder named "dataset" that is included in this repo (if you clone the repo as it is the script should work without problems).__
-
-***
 
 ## How does the script work?
 <br>
@@ -85,8 +81,6 @@ result_data_tidy <- all_data_tidy %>%
   summarise_all("mean")
 ```
 <br>
-
-***
 
 ## Final information
 <br>
